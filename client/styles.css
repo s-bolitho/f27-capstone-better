@@ -2,12 +2,21 @@ input {
     width: 30px;
 }
 
-#kills {
+header {
+    background-color: rgba(82, 45, 45, 0.316);
+}
+
+#apex-kills {
     width: 100px;
 }
 
-#deaths {
+#apex-deaths {
     width: 100px;
+}
+
+#apex-img {
+    border: solid black;
+    width: 60%;
 }
 
 .profile_btn {
@@ -23,6 +32,32 @@ html {
 .submit {
     width: 60px;
 }
+
+#getButtons {
+    display: flex;
+    flex-direction: column;
+}
+
+#goodAtApexButton:hover {
+    background-color: red;
+}
+
+#couldYouBeBetter:hover {
+    background-color: red;
+}
+
+/* #fortnite-kills {
+    width: 100px;
+}
+
+#fortnite-deaths {
+    width: 100px;
+}
+
+#fortnite-img {
+    border: solid black;
+    width: 60%;
+} */
 
 /*html {
     background-image: url('https://www.ravensoftware.com/content/dam/atvi/Raven/raven-2020/news/2021/06/4-0/PZ_S04_WARZONE_KA_16x9_051921.png');

@@ -100,9 +100,54 @@ axios.post('/calcKd', bodyObj)
 .then(res => {
   let theAnswer = res.data.kd
   console.log(theAnswer)
+  const apexKd = document.createElement("div")
+  apexKd.style.width = "50px";
+  apexKd.style.color = "red";
+  apexKd.style.background = "black";
+  apexKd.style.marginLeft = "100px";
+  apexKd.style.bottom = "100px";
+  apexKd.innerHTML = 'KD:' + " " + theAnswer
+  document.body.appendChild(apexKd)
 })
-
 }
+
+
+
+const goodAtApexBtn = document.getElementById("goodAtApexButton")
+
+const getGoodAtApex = () => {
+    axios.get("http://localhost:4004/api/goodAtApex/")
+        .then(res => {
+            const data = res.data;
+            alert(data);
+        })
+};
+
+goodAtApexBtn.addEventListener('click', getGoodAtApex)
+
+const couldYouBeBetterBtn = document.getElementById("couldYouBeBetter")
+
+const getCouldYouBeBetter = () => {
+    axios.get("http://localhost:4004/api/couldYouBeBetter/")
+        .then(res => {
+            const data = res.data;
+            alert(data);
+        })
+};
+
+couldYouBeBetterBtn.addEventListener('click', getCouldYouBeBetter)
+
+// const loginBtn = document.getElementById("profile_btn")
+
+// const getLogin = () => {
+//     axios.get("http://localhost:4004/api/profile_btn/")
+//         .then(res => {
+//             const data = res.data;
+//             alert(data);
+//         })
+// };
+
+// loginBtn.addEventListener('click', getLogin)
 
 // const calcKdWz = (e) => {
 //   e.preventDefault()
@@ -119,21 +164,8 @@ axios.post('/calcKd', bodyObj)
 
 // }
 
-// const calcKdFortnite = (e) => {
-//   e.preventDefault()
-// let bodyObj = {
-//   kills: document.querySelector('#fortnite-kills').value,
-//   deaths: document.querySelector('#fortnite-deaths').value
-// }
 
-// axios.post('/calcKd', bodyObj)
-// .then(res => {
-//   let theAnswer = res.data.kd
-//   console.log(theAnswer)
-// })
 
-// }
-
-loginForm.addEventListener('submit', loginSubmitHandler)
-registerForm.addEventListener('submit', registerSubmitHandler)
+// loginForm.addEventListener('submit', loginSubmitHandler)
+// registerForm.addEventListener('submit', registerSubmitHandler)
 apexForm.addEventListener('submit', calcKdApex)
