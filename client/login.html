@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <header>
+        <header><a href="http://127.0.0.1:5502/client/index.html"><input type="image" src="https://www.svgrepo.com/show/147593/home-button.svg" name="home-button" class="btTxt_submit" id="home_btn"/></a>
+        <a href="http://127.0.0.1:5502/client/login.html"><input type="image" src="http://cdn.onlinewebfonts.com/svg/img_364496.png" name="profile_button" class="profile_btn"/></header></a>
+        <h1>Login or Register</h1>
+    </header>
+    <main>
+
+    <form id="login-form">
+        <h1>Log In</h1>
+        <input 
+            type='text'
+            id="login-username"
+            placeholder="Username"/>
+        <input 
+            type='password'
+            id="login-password"
+            placeholder='Password'/>
+        <button>Sign In</button>
+    </form>
+    <form id="register-form">
+      <h1>Register</h1>
+      <input 
+          type='text'
+          id="register-username"
+          placeholder="Username"/>
+      <input 
+          type='text'
+          id="register-email"
+          placeholder='Email'/>
+      <input 
+          type='text'
+          id="register-firstName"
+          placeholder='First Name'/>
+      <input 
+          type='text'
+          id="register-lastName"
+          placeholder='Last Name'/>
+      <input 
+          type='password'
+          id="register-password"
+          placeholder='Password'/>
+      <input 
+          type='password'
+          id="register-password-2"
+          placeholder='Confirm Password'/>
+      <button>Register</button>
+  </form>
+
+    <section id="user-info"></section>
+
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

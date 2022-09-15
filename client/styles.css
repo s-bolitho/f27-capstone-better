@@ -1,0 +1,96 @@
+input {
+    width: 30px;
+}
+
+#kills {
+    width: 100px;
+}
+
+#deaths {
+    width: 100px;
+}
+
+.profile_btn {
+    margin-left: 5px;
+    margin-bottom: 3px;
+    width: 23px;
+}
+
+html {
+    background-color:dimgrey;
+}
+
+.submit {
+    width: 60px;
+}
+
+/*html {
+    background-image: url('https://www.ravensoftware.com/content/dam/atvi/Raven/raven-2020/news/2021/06/4-0/PZ_S04_WARZONE_KA_16x9_051921.png');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orangered;
+}
+
+.wz_container {
+    height:190px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.wz_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: left;
+    width: 25%;
+}
+
+.wz_card_submit {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.apex_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: left;
+    width: 25%;
+}
+
+.apex_card_submit {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.apex_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.apex_container {
+    height: 191px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.fortnite_card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    float: right;
+    width: 25%;
+}
+
+.fortnite_card_submit {
+    width: 60px;
+    margin-top: 5px;
+}
+
+.fortnite_card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.fortnite_container {
+    height: 191px;
+    padding-top:20px;
+    padding-left:15px;
+    padding-right:15px;
+} */
