@@ -7,6 +7,7 @@ require('dotenv').config()
 
 
 
+
 module.exports = {
     grabHTML: (req, res) => {
         res.sendFile(path.join(__dirname, '../client/index.html'))
@@ -31,7 +32,7 @@ module.exports = {
         console.log(newKd.kd)
     },
     getGoodAtApex: (req, res) => {
-        const goodAtApex = ["You're alright I guess", "YOU'RE INSANE", "Do some aim training maybe?"]
+        const goodAtApex = [/*"You're alright I guess",*/ "YOU'RE INSANE", /*"Do some aim training maybe?"*/]
 
         let randomIndex = Math.floor(Math.random() * goodAtApex.length)
         let randomGoodAtApex = goodAtApex[randomIndex]

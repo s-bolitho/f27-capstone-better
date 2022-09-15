@@ -2,10 +2,6 @@ input {
     width: 30px;
 }
 
-header {
-    background-color: rgba(82, 45, 45, 0.316);
-}
-
 #apex-kills {
     width: 100px;
 }
@@ -16,17 +12,27 @@ header {
 
 #apex-img {
     border: solid black;
-    width: 60%;
+    width: 40%;
 }
 
-.profile_btn {
+#apex-image {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .profile_btn {
     margin-left: 5px;
     margin-bottom: 3px;
     width: 23px;
-}
+} */
 
 html {
-    background-color:dimgrey;
+    background-image: url('https://gamingbolt.com/wp-content/uploads/2022/02/apex-legends.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: orangered;
 }
 
 .submit {
@@ -44,6 +50,14 @@ html {
 
 #couldYouBeBetter:hover {
     background-color: red;
+}
+
+#getBetter {
+    font-size: 20px;
+    /* color: red; */
+    display: flex;
+    justify-content: flex-start;
+    /* margin-top: 300px; */
 }
 
 /* #fortnite-kills {
